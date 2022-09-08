@@ -1,0 +1,273 @@
+/* GBLOBALES */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #120012;
+    background-color: #CFCFCF;
+    background-color: #CFCFCF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23DD0000' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23D60000'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    margin: 0;
+}
+
+span {
+    font-size: 23px;
+}
+
+.contenedor {
+    background-color: #000000e3;
+    border-radius: 16px;
+    color: #ffffff;
+    padding: 2rem;
+    max-width: 80%;
+    margin: 50px auto;
+    border-color: #801919;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+}
+
+.sombra {
+    box-shadow: 0px 5px 20px 0px rgb(0, 0, 0);
+}
+
+footer {
+    font-size: 12px;
+}
+
+
+/* Navegacion 0.1*/
+
+.menu_principal {
+    background-color: #0000008e;
+}
+
+.menu_principal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu_principal li {
+    display: block;
+    padding: 20px 0;
+}
+
+.menu_principal a {
+    text-decoration: none;
+    color: #f2f3f4;
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+
+.menu_principal a:hover {
+    background-color: #4e4f50;
+    border-radius: 10px;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+
+/* Index Header */
+
+.hero {
+    background-image: url(/img/teclado.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 10px;
+    max-width: 100%;
+    height: 700px;
+}
+
+.contenido-hero {
+    color: #f2f3f4;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+/* Servicios */
+
+.servicios {
+    display: block;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio h3 {
+    font-size: 20px;
+    color: #801919;
+}
+
+.servicio p {
+    line-height: 2;
+    font-size: 12px;
+    width: 100%;
+}
+
+.icono {
+    height: 70px;
+    width: 70px;
+    background-color: #801919;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Precios */
+
+.tabla table {
+    margin: 0 auto;
+}
+
+.tabla th,
+td {
+    font-size: 12px;
+}
+
+
+/* UBICACION */
+
+.mapa {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+
+/* Contacto */
+
+.campo {
+    margin: 1rem;
+    display: block;
+}
+
+.campo label {
+    display: block;
+    color: #abb2b9;
+    font-size: 12px;
+}
+
+.campo textarea {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+.campo input {
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+.formulario {
+    background-color: #1f2529;
+    border-radius: 16px;
+    color: #abb2b9;
+    padding: 2rem;
+    max-width: 80%;
+    margin: 50px auto;
+}
+
+.boton {
+    text-decoration: none;
+    padding: 1.3em 3em;
+    margin: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+
+/* MEDIAS */
+
+@media (min-width:768px) {
+    .formulario {
+        max-width: 50%;
+    }
+    .campo input,
+    .campo label {
+        font-size: 18px;
+    }
+    .tabla th,
+    td {
+        font-size: 18px;
+    }
+    .servicios p {
+        font-size: 18px;
+        width: 70%;
+    }
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+    .menu_principal li {
+        display: inline-block;
+        padding: 15px;
+        position: relative;
+        display: inline-block;
+    }
+    .contenedor {
+        max-width: 80%;
+    }
+}
+
+
+/* KeyFrames 
+
+@keyframes parpadeo {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 30%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+.icono {
+    animation-name: parpadeo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} 
+ */
