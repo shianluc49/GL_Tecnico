@@ -1,7 +1,6 @@
 /* GBLOBALES */
 
-
-/* body {
+body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     background-color: #120012;
@@ -33,13 +32,12 @@ span {
 
 footer {
     font-size: 12px;
-} */
+}
 
 
 /* Navegacion 0.1*/
 
-
-/* .menu_principal {
+.menu_principal {
     background-color: #0000008e;
 }
 
@@ -90,13 +88,12 @@ footer {
 .link:hover::before,
 .link:hover::after {
     transform: scaleX(1);
-} */
+}
 
 
 /* Index Header */
 
-
-/* .hero {
+.hero {
     background-image: url(/img/teclado.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,13 +118,12 @@ footer {
 .contenido {
     width: 600px;
     margin: 0 auto;
-} */
+}
 
 
 /* Servicios */
 
-
-/* .servicios {
+.servicios {
     display: block;
 }
 
@@ -157,35 +153,31 @@ footer {
     justify-content: center;
     align-items: center;
 }
- */
 
 
 /* Precios */
 
-
-/* .tabla table {
+.tabla table {
     margin: 0 auto;
 }
 
 .tabla th,
 td {
     font-size: 12px;
-} */
+}
 
 
 /* UBICACION */
 
-
-/* .mapa {
+.mapa {
     margin: 0 auto;
     max-width: 90%;
-} */
+}
 
 
 /* Contacto */
 
-
-/* .campo {
+.campo {
     margin: 1rem;
     display: block;
 }
@@ -233,13 +225,11 @@ td {
     border-radius: 45px;
     cursor: pointer;
 }
- */
 
 
 /* MEDIAS */
 
-
-/* @media (min-width:768px) {
+@media (min-width:768px) {
     .formulario {
         max-width: 50%;
     }
@@ -270,29 +260,3 @@ td {
         max-width: 80%;
     }
 }
- */
-
-
-/* KeyFrames 
-
-@keyframes parpadeo {
-    0% {
-        opacity: 100%;
-    }
-    50% {
-        opacity: 30%;
-    }
-    100% {
-        opacity: 100%;
-    }
-}
-
-
-.icono {
-    animation-name: parpadeo;
-    animation-duration: 5s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-} 
- */
