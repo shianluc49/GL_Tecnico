@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GLT</title>
 
+    <!-- estilos bootstrap-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <!-- estilos -->
     <link rel="stylesheet" href="../css/main.css">
 
@@ -23,17 +27,35 @@
 
     <header>
 
-        <nav class="menu_principal">
-            <ul>
-                <li><a class="link" href="../index.html">Inicio</a></li>
-                <li><a class="link" href="cuidados.html">Cuidados</a></li>
-                <li><a class="link" href="precios.html">Precios</a></li>
-                <li><a class="link" href="contacto.html">Contacto</a></li>
-                <li><a class="link" href="ubicacion.html">Ubicacion</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg" style="background-color: #585a59d7;">
+            <div class="container-fluid">
+                <a href="./index.html"><img class="logotipo" src="../img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-4" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-4" href="cuidados.html">Cuidados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-4" href="precios.html">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-4" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ubicacion.html">Ubicacion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
-        <h1 class="animate__animated animate__backInDown">Ubicacion</h1>
+        <h1 class="animate__animated animate__backInLeft">Ubicacion</h1>
     </header>
 
     <main class="contenedor sombra">
@@ -44,7 +66,8 @@
     <footer>
         <p>Copyright© 2022 Valle Gian Luca, todos los derechos reservados</p>
     </footer>
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8 " crossorigin="anonymous "></script>
 </body>
 
 </html>
