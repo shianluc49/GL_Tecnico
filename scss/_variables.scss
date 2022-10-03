@@ -1,0 +1,20 @@
+$epoca: halloween;
+body {
+    @if $epoca==navidad {
+        background-image: url(../img/navidad.jpg);
+        background-size: cover;
+        h1 {
+            color: rgb(245, 245, 245);
+        }
+    }
+    @if $epoca==halloween {
+        background-image: url(../img/halloween.jpg);
+        background-size: cover;
+        h1 {
+            color: rgb(145, 35, 35);
+        }
+    }
+    @else {
+        background-color: #A9A5A5;
+    }
+}
