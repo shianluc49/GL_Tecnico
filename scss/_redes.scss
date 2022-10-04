@@ -1,0 +1,21 @@
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+
+/* MAPS */
+
+$redes:( twitter: rgb(173, 216, 230), instagram: rgb(219, 148, 15), whatsapp: rgb(5, 128, 5));
+
+/* BUCLE */
+
+@each $red,
+$color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+        border-radius: 10px;
+        width: 40px;
+    }
+}

@@ -18,3 +18,34 @@ body {
         background-color: #A9A5A5;
     }
 }
+
+
+/* MAPAS*/
+
+
+/* contenedor */
+
+$estilos:( colorin: #000000e3, radio: 16px, fuente-color: #ffffff, padding: 2rem, width: 80%, margen: 50px auto, color-borde: #801919, borde-estilo: ridge, );
+.contenedor {
+    background-color: map-get($estilos, colorin);
+    border-radius: map-get($estilos, radio);
+    color: map-get($estilos, fuente-color);
+    padding: map-get($estilos, padding);
+    max-width: map-get($estilos, width);
+    margin: map-get($estilos, margen);
+    border-color: map-get($estilos, color-borde);
+    border-top-style: map-get($estilos, borde-estilo);
+    border-bottom-style: map-get($estilos, borde-estilo);
+}
+
+
+/* mixin footer*/
+
+@mixin footer($fuente, $colorfuente) {
+    font-size: $fuente;
+    color: $colorfuente;
+}
+
+footer {
+    @include footer(12px, #ffffff);
+}
