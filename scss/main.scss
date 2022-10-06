@@ -1,172 +1,204 @@
-@import "globales";
-@import "variables";
-@import "redes";
-
-/* Index Header */
-
-.hero {
-    background-image: url(../img/cropped-1920-1080-1156488.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    max-width: 100%;
-    height: 700px;
-}
-
-.contenido-hero {
-    color: #ebebeb;
-    background-color: rgba(0, 0, 0, 0.295);
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.contenido {
-    width: 600px;
-    margin: 0 auto;
-}
-
-
-/* Servicios */
-
-.servicios {
-    display: block;
-}
-
-.servicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h3 {
-        font-size: 20px;
-        color: #801919;
+    @import "globales";
+    @import "variables";
+    @import "redes";
+    @import "cards";
+    /* Index Header */
+    
+    .hero {
+        background-image: url(../img/5073414.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        max-width: 100%;
+        height: 800px;
     }
-    p {
-        line-height: 2;
-        font-size: 12px;
+    
+    .contenido-hero {
+        color: #ebebeb;
+        background-color: rgba(0, 0, 0, 0.295);
+        border-radius: 10px;
         width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-}
-
-.icono {
-    height: 70px;
-    width: 70px;
-    background-color: #801919;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/* Precios */
-
-.tabla table {
-    margin: 0 auto;
-}
-
-.tabla th,
-td {
-    font-size: 12px;
-}
-
-
-/* UBICACION */
-
-.mapa {
-    margin: 0 auto;
-    max-width: 90%;
-}
-
-
-/* Contacto */
-
-.campo {
-    margin: 1rem;
-    display: block;
-    label {
-        display: block;
-        color: #abb2b9;
-        font-size: 12px;
+    
+    .contenido {
+        width: 600px;
+        margin: 0 auto;
     }
-    textarea {
-        height: 200px;
-        width: 100%;
-        border-radius: 5px;
-        border-style: dashed;
-    }
-    input {
-        font-size: 12px;
-        width: 100%;
-        height: 30px;
-        border-radius: 5px;
-        border-style: dashed;
-    }
-}
-
-.formulario {
-    background-color: #1f2529;
-    border-radius: 16px;
-    color: #abb2b9;
-    padding: 2rem;
-    max-width: 80%;
-    margin: 50px auto;
-}
-
-.boton {
-    text-decoration: none;
-    padding: 1.3em 3em;
-    margin: 10px;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(196, 201, 195);
-    border: none;
-    border-radius: 45px;
-    cursor: pointer;
-}
-
-.botonborrar {
-    @extend .boton;
-    background-color: #801919;
-}
-
-
-/* MEDIAS */
-
-@media (min-width:768px) {
-    .formulario {
-        max-width: 50%;
-    }
-    .campo input,
-    .campo label {
-        font-size: 18px;
-    }
-    .tabla th,
-    td {
-        font-size: 18px;
-    }
-    .servicios p {
-        font-size: 18px;
-        width: 70%;
-    }
+    /* Servicios */
+    
     .servicios {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 1rem;
+        display: block;
     }
-    .menu_principal li {
-        display: inline-block;
-        padding: 15px;
-        position: relative;
-        display: inline-block;
+    
+    .servicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            font-size: 20px;
+            color: #f8f8f8;
+            text-decoration: underline;
+            margin-bottom: 30px;
+        }
+        p {
+            line-height: 2;
+            font-size: 12px;
+            width: 100%;
+        }
     }
-    .contenedor {
-        max-width: 80%;
+    
+    .icono {
+        height: 70px;
+        width: 70px;
+        background-color: #243658;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-}
+    /* Precios */
+    
+    .tdatos {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        table {
+            border: solid 1px #ffffff;
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+        thead {
+            background-color: #a0afca;
+        }
+        th {
+            padding: 20px 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        td {
+            padding: 15px;
+            border-bottom: solid 1px #ffff;
+        }
+        tbody {
+            background-color: #252525;
+        }
+    }
+    /* UBICACION */
+    
+    .mapa {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+    /* DATOS */
+    
+    .datos {
+        display: block;
+    }
+    /* Contacto */
+    
+    .campo {
+        margin: 1rem;
+        display: block;
+        label {
+            display: block;
+            color: #abb2b9;
+            font-size: 12px;
+        }
+        textarea {
+            height: 200px;
+            width: 100%;
+            border-radius: 5px;
+            border-style: dashed;
+        }
+        input {
+            font-size: 12px;
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            border-style: dashed;
+        }
+    }
+    
+    .formulario,
+    .ubicacion {
+        background-color: #333333;
+        border-radius: 16px;
+        color: #abb2b9;
+        max-width: 100%;
+    }
+    
+    .boton {
+        text-decoration: none;
+        padding: 1.3em 3em;
+        margin: 10px;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(196, 201, 195);
+        border: none;
+        border-radius: 45px;
+        cursor: pointer;
+    }
+    
+    .botonborrar {
+        @extend .boton;
+        background-color: #801919;
+    }
+    /* MEDIAS */
+    
+    @media (min-width:768px) {
+        .formulario {
+            max-width: 100%;
+        }
+        .datos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .campo input,
+        .campo label {
+            font-size: 18px;
+        }
+        .tabla th,
+        td {
+            font-size: 18px;
+        }
+        .servicios p {
+            font-size: 18px;
+            width: 70%;
+        }
+        .servicios {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 1rem;
+        }
+        .contenedor {
+            max-width: 80%;
+        }
+        .text {
+            font-size: 80px;
+        }
+        .cards {
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+    }
+    
+    @media (min-width:1200px) {
+        .cards {
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+    }

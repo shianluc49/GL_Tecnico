@@ -1,4 +1,4 @@
-$epoca: halloween;
+$epoca: normal;
 body {
     @if $epoca==navidad {
         background-image: url(../img/navidad.jpg);
@@ -15,7 +15,7 @@ body {
         }
     }
     @else {
-        background-color: #A9A5A5;
+        background-color: #131315;
     }
 }
 
@@ -25,7 +25,7 @@ body {
 
 /* contenedor */
 
-$estilos:( colorin: #000000e3, radio: 16px, fuente-color: #ffffff, padding: 2rem, width: 80%, margen: 50px auto, color-borde: #801919, borde-estilo: ridge, );
+$estilos:( colorin: #000000e3, radio: 16px, fuente-color: #f1f1f1, padding: 2rem, width: 80%, margen: 50px auto, color-borde: #ffffff, borde-estilo: ridge, );
 .contenedor {
     background-color: map-get($estilos, colorin);
     border-radius: map-get($estilos, radio);
@@ -36,6 +36,10 @@ $estilos:( colorin: #000000e3, radio: 16px, fuente-color: #ffffff, padding: 2rem
     border-color: map-get($estilos, color-borde);
     border-top-style: map-get($estilos, borde-estilo);
     border-bottom-style: map-get($estilos, borde-estilo);
+    h2 {
+        color: #4f859b;
+        margin-bottom: 40px;
+    }
 }
 
 

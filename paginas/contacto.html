@@ -53,7 +53,7 @@
                             <a class="nav-link me-lg-4 active" aria-current="page" href="contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                            <a class="nav-link" href="tienda.html">Tienda</a>
                         </li>
                     </ul>
                 </div>
@@ -64,33 +64,41 @@
     </header>
 
     <main>
-        <form action="#" class="formulario sombra">
+        <div class="datos contenedor">
+            <section class="ubicacion">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15611.634174927018!2d-58.614488006997824!3d-34.65617263318457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc75d3b47559d%3A0x87ff4b5eaf3697a0!2zMzTCsDM5JzIzLjAiUyA1OMKwMzcnMzAuMiJX!5e0!3m2!1ses-419!2sar!4v1660727549396!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="formulario">
+                <form action="#" class="formulario">
 
-            <div class="campo">
-                <label for="text">Tu nombre:</label>
-                <input type="text" placeholder="Tu nombre"><br>
-            </div>
+                    <div class="campo">
+                        <label for="text">Tu nombre:</label>
+                        <input type="text" placeholder="Tu nombre"><br>
+                    </div>
 
-            <div class="campo">
-                <label for="email">Tu email:</label>
-                <input type="email" placeholder="xxx@gmail.com" name="email"><br>
-            </div>
+                    <div class="campo">
+                        <label for="email">Tu email:</label>
+                        <input type="email" placeholder="xxx@gmail.com" name="email"><br>
+                    </div>
 
-            <div class="campo">
-                <label for="numero">Tu numero:</label>
-                <input type="tel" placeholder="Tu telefono/celular"><br>
-            </div>
+                    <div class="campo">
+                        <label for="numero">Tu numero:</label>
+                        <input type="tel" placeholder="Tu telefono/celular"><br>
+                    </div>
 
-            <div class="campo">
-                <label for="Pedido"> Pedido:<br></label>
-                <textarea placeholder="Tu pedido" rows="10" cols="30"></textarea><br>
-            </div>
+                    <div class="campo">
+                        <label for="Pedido"> Pedido:<br></label>
+                        <textarea placeholder="Tu pedido" rows="10" cols="30"></textarea><br>
+                    </div>
 
-            <div class="botones">
-                <input type="submit" value="Contactame" class="boton">
-                <input type="reset" value="Borrar datos" class="botonborrar">
-            </div>
-        </form>
+                    <div class="botones">
+                        <input type="submit" value="Contactame" class="boton">
+                        <input type="reset" value="Borrar datos" class="botonborrar">
+                    </div>
+                </form>
+            </section>
+        </div>
     </main>
     <div class="redes">
         <a href="#"><img src="/img/twitter.svg" alt="twitter" class="btn--twitter"></a>
