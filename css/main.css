@@ -88,12 +88,6 @@ footer {
   border-radius: 10px;
   width: 40px; }
 
-.cards {
-  /* margin: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px; */ }
-
 .card {
   margin: 10px auto;
   width: 350px;
