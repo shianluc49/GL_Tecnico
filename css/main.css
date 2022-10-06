@@ -129,8 +129,7 @@ footer {
   border-radius: 25px 25px 0px 0px;
   background: url(../img/PC1.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   background-size: cover; }
 
 .card:hover {
