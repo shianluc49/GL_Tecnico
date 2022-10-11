@@ -1,4 +1,7 @@
 /* GBLOBALES */
+a {
+  text-decoration: none; }
+
 h1 {
   color: #ffffff;
   margin: 15px 0;
@@ -44,10 +47,26 @@ span {
   100% {
     background-position: 0px 50%; } }
 
+/* Botones */
+.boton, .botonborrar {
+  text-decoration: none;
+  padding: 1.3em 3em;
+  margin: 20px 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: black;
+  background-color: #c4c9c3;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer; }
+
+.botonborrar {
+  background-color: #801919; }
+
 body {
   background-color: #131315; }
 
-/* MAPAS*/
 /* contenedor */
 .contenedor, .contenedorbout, .contenedorbout_plans {
   background-color: #000000e3;
@@ -242,6 +261,8 @@ footer {
     margin: 20px 0;
     color: #ffffff;
     border-bottom: 1px solid #dbdce4; }
+  .contenedorbout_plans li {
+    margin: 20px 0; }
 
 .plans {
   margin-top: 90px; }
@@ -331,22 +352,6 @@ footer {
   border-radius: 16px;
   color: #abb2b9;
   max-width: 100%; }
-
-.boton, .botonborrar {
-  text-decoration: none;
-  padding: 1.3em 3em;
-  margin: 20px 0;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  color: black;
-  background-color: #c4c9c3;
-  border: none;
-  border-radius: 45px;
-  cursor: pointer; }
-
-.botonborrar {
-  background-color: #801919; }
 
 /* MEDIAS */
 @media (min-width: 768px) {
