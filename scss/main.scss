@@ -47,8 +47,8 @@
                 border-bottom: 1px solid #dbdce4;
             }
             img {
-                height: 200px;
-                width: 200px;
+                max-height: 200px;
+                max-width: 200px;
             }
             p {
                 font-size: 18px;
@@ -243,8 +243,8 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 15px;
                 img {
-                    height: 300px;
-                    width: 300px;
+                    max-height: 300px;
+                    max-width: 300px;
                 }
                 p {
                     font-size: 20px;

@@ -241,8 +241,8 @@ footer {
     color: #ffffff;
     border-bottom: 1px solid #dbdce4; }
   .contenedorbout img {
-    height: 200px;
-    width: 200px; }
+    max-height: 200px;
+    max-width: 200px; }
   .contenedorbout p {
     font-size: 18px;
     margin: 5px 0; }
@@ -397,8 +397,8 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px; }
     .contenedorbout img {
-      height: 300px;
-      width: 300px; }
+      max-height: 300px;
+      max-width: 300px; }
     .contenedorbout p {
       font-size: 20px; }
     .contenedorbout span {
